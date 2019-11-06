@@ -22,9 +22,9 @@ interval_sim 100  # simulation timestep in milliseconds
 window
 (
   size [ 600 700 ]
-  center [ 8.573 2.109 ]
+  center [ 4.935 4.857 ]
   rotate [ 0.000 0.000 ]
-  scale 23.133
+  scale 54.546
 )
 
 floorplan

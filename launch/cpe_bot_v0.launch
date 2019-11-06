@@ -10,7 +10,7 @@
   <param name="/use_sim_time" value="true"/>
 
   <node pkg="stage_ros_add_pose_and_crash" type="stageros" name="stageros" args="$(arg world_file)">
-    <param name="base_watchdog_timeout" value="0.5"/>
+    <param name="base_watchdog_timeout" value="100"/>
     <remap from="odom" to="odom"/>
   </node>
 
